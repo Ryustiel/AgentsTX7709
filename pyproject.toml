@@ -1,0 +1,17 @@
+[project]
+name = "agentstx7709"
+version = "0.1.0"
+description = "Creation of langgraph agents for the course"
+authors = [
+    {name = "Raph",email = "94909118+Ryustiel@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "raphlib @ git+https://github.com/Ryustiel/RaphLib.git"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
